@@ -1,0 +1,11 @@
+{
+  "/foodmenu/page": "/foodmenu",
+  "/AfaMilitar/page": "/AfaMilitar",
+  "/gallerie/page": "/gallerie",
+  "/news/page": "/news",
+  "/news/[id]/page": "/news/[id]",
+  "/page": "/",
+  "/scoreboard/page": "/scoreboard",
+  "/schedule/page": "/schedule",
+  "/public/icon.png/route": "/public/icon.png"
+}

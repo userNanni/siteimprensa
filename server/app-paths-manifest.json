@@ -1,0 +1,11 @@
+{
+  "/foodmenu/page": "app/foodmenu/page.js",
+  "/AfaMilitar/page": "app/AfaMilitar/page.js",
+  "/gallerie/page": "app/gallerie/page.js",
+  "/news/page": "app/news/page.js",
+  "/news/[id]/page": "app/news/[id]/page.js",
+  "/page": "app/page.js",
+  "/scoreboard/page": "app/scoreboard/page.js",
+  "/schedule/page": "app/schedule/page.js",
+  "/public/icon.png/route": "app/public/icon.png/route.js"
+}

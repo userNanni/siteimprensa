@@ -1,0 +1,79 @@
+.navBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 5;
+
+    width: 100vw;
+    height: 117px;
+
+    display: grid;
+
+    background: var(--glass-background-color);
+    box-shadow: 0 4px 30px var(--primary-glow);
+
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+
+    .line {
+        position: fixed;
+        margin-top: 117px;
+        left: 0;
+
+        width: 100vw;
+        height: 3px;
+
+        background: linear-gradient(90deg, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 50%, rgba(9, 9, 121, 1) 100%);
+    }
+
+    .Logo {
+        position: fixed;
+        top: 50px;
+        justify-self: center;
+
+        transform: translate(-50%, -50%);
+        transform: rotate(-0.02turn);
+
+        width: 300px;
+
+        @media (max-width: 700px) {
+            justify-self: end;
+            right: 50px;
+        }
+
+        @media (max-width: 500px) {
+            right: -80px;
+
+            img {
+                width: 50%;
+                height: 50%;
+                justify-self: end;
+            }
+        }
+
+        @media (max-width: 300px) {
+            display: none;
+        }
+    }
+
+    .rightWaffer {
+        position: fixed;
+        left: 90vw;
+        top: 60px;
+
+        transform: translate(-50%, -50%);
+
+        margin-right: 10px;
+
+        width: 100px;
+        border-radius: 50%;
+
+        box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.2);
+
+        @media (max-width: 700px) {
+            display: none;
+        }
+
+    }
+}
